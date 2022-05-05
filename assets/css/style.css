@@ -33,7 +33,7 @@ i {
 }
 
 .hero-image{
-    background-image:url(/assets/images/pexels-oliver-sjöström-1047051.jpg);
+    background-image:url(../images/pexels-oliver-sjöström-1047051.jpg);
 }
 
 .banner {
@@ -60,11 +60,11 @@ i {
 }
 
 .category-image1 {
-    background-image:url(/assets/images/pexels-gabriela-palai-395242.jpg);
+    background-image:url(../images/pexels-gabriela-palai-395242.jpg);
 }
 
 .category-image-placeholder{
-    background-image:url(/assets/images/pexels-oziel-gómez-868097.jpg);
+    background-image:url(../images/pexels-oziel-gómez-868097.jpg);
 }
 
 .welcome{
