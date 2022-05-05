@@ -1,6 +1,39 @@
 body {
     color: white;
     background-color: #212529;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: white;
+    font-family: "Spartan", sans-serif;
+}
+
+.background-image{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#444; 
+    background-blend-mode: overlay;
+}
+
+.navbar
+.nav-item {
+    margin-left: 2rem;
+}
+
+.navbar
+i {
+    margin-right: 2rem;
+}
+
+.hero-image{
+    background-image:url(/assets/images/pexels-oliver-sjöström-1047051.jpg);
 }
 
 .banner {
@@ -12,11 +45,34 @@ body {
     width: 90px;
 }
 
-.footer{
-    background-color:black;
-    padding-top: 40px;
+.category-card {
+    height: 30rem;
+    position: relative;
+    border-radius: 0;
+}
+
+.category-card
+.card-body {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.category-image1 {
+    background-image:url(/assets/images/pexels-gabriela-palai-395242.jpg);
+}
+
+.category-image-placeholder{
+    background-image:url(/assets/images/pexels-oziel-gómez-868097.jpg);
 }
 
 .welcome{
     background-color: black;
 }
+
+.footer{
+    background-color:black;
+    padding-top: 40px;
+}
+
